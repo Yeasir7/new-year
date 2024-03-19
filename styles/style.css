@@ -1,0 +1,74 @@
+/* universal style*/
+body{
+    margin: 0;
+}
+
+.container{
+    max-width: 1140px;
+    width: 72%;
+    margin: 0 auto;
+}
+
+.universal-heading{
+    color: var(--Dark-01, #151414);
+font-size: 40px;
+font-weight: 700;
+line-height: normal;
+}
+
+.universal-description{
+    color: var(--Dark-02, #444343);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+/* header related style */
+header{
+    background-image: url('../images/banner/banner2.png');
+    display: flex;
+}
+
+.banner{
+    width: 50%;
+    text-align: right;
+    padding: 150px 150px 150px 600px;
+}
+
+header h2{
+    color: var(--Dark-01, #151414);
+font-size: 65px;
+font-weight: 700;
+line-height: normal;
+}
+
+header button{
+    border-radius: 5px;
+background: #F15B22;
+color: #FFF;
+font-size: 20px;
+font-weight: 600;
+padding: 20px 25px;
+border: 0;
+}
+
+/* failure style */
+.failure-container{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.failure-text ul li{
+    list-style: none;
+}
+
+.failure-text ul{
+    padding-left: 0;
+}
+
+.universal-description.checkmark{
+    color: green; 
+}
+
+
